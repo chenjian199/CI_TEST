@@ -1,0 +1,5 @@
+{"http.proxy": "http://127.0.0.1:7890",  // ← 按你自己代理配置修改
+"http.proxyStrictSSL": false,
+"proxyStrictSSL": false
+
+}

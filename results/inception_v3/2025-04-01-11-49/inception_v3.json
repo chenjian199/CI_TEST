@@ -1,0 +1,36 @@
+{
+    "result": {
+        "Status": "pass",
+        "[RESULT]": {
+            "[WORKLOAD]": "inception_v3",
+            "batch Size": 1024,
+            "precision": "fp16",
+            "framework": "pytorch",
+            "accuracy": 0.77512,
+            "Status": "pass",
+            "time": 25.5657696723938,
+            "samples": 50000,
+            "throughput": 1955.7400634016724,
+            "percentiles": {
+                "50": 0.12177085876464844,
+                "80": 0.12802743911743164,
+                "90": 0.12970528602600098,
+                "95": 0.13014698028564453,
+                "99": 10.309482841491622,
+                "99.9": 18.636287620544536
+            }
+        },
+        "[GPU_SUMMARY]": {
+            "name": "NVIDIA H800 PCIe",
+            "total_memory(MB)": 81559.0,
+            "utilization_rates(%)": {
+                "max": 0,
+                "ave": 0.0
+            },
+            "power_usage(W)": {
+                "max": 75.729,
+                "ave": 75.24330414679817
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "result": {
+        "Status": "pass",
+        "[RESULT]": {
+            "[WORKLOAD]": "resnet50",
+            "batch Size": 1024,
+            "precision": "fp16",
+            "framework": "pytorch",
+            "accuracy": 0.76138,
+            "Status": "pass",
+            "time": 14.90357518196106,
+            "samples": 50000,
+            "throughput": 3354.899706247588,
+            "percentiles": {
+                "50": 0.07685351371765137,
+                "80": 0.08150625228881836,
+                "90": 0.08232450485229492,
+                "95": 0.08300652503967285,
+                "99": 5.880393037795977,
+                "99.9": 10.624102617263851
+            }
+        },
+        "[GPU_SUMMARY]": {
+            "name": "NVIDIA H800 PCIe",
+            "total_memory(MB)": 81559.0,
+            "utilization_rates(%)": {
+                "max": 0,
+                "ave": 0.0
+            },
+            "power_usage(W)": {
+                "max": 75.235,
+                "ave": 74.8451865468408
+            }
+        }
+    }
+}

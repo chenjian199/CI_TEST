@@ -1,0 +1,2 @@
+from .PaddlePalldle import PaddlePaddle
+from .paddlepaddle_recorder import paddlepaddle_recorder

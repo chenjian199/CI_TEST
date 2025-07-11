@@ -1,0 +1,12 @@
+{
+    "AC Bench": {
+        "tool": "Train",
+        "version": 2.1,
+        "time": 20240111
+    },
+    "更新日志": {
+                "runnable.py":"更新Metrics类的batch_processed函数， Runnable类的更新均在注释中标明",
+                "backend/backend_base.py":"增加malloc_pinned_buffer和cp_numpy_to_pinned_buffer方法",
+                "backend/PYTORCH/Pytorch.py":"新增pinned memory示例"
+    }
+}
