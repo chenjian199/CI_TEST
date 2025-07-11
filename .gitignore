@@ -1,6 +1,10 @@
 checkpoint/
-checkpoint/
 *.pt
 *.ckpt
 *.onnx
-checkpoint/
+*.pth
+
+__pycache__/
+*.log
+*.csv
+
